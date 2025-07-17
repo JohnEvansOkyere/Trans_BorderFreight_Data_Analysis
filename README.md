@@ -1,5 +1,57 @@
 # North American Freight Data Analysis
 
+
+Certainly! Here’s a concise, stakeholder-friendly methodology section you can use in your documentation or reporting:
+
+---
+
+## Methodology for Reproducibility
+
+To ensure transparency and reproducibility, our analysis followed a clear, step-by-step methodology:
+
+### 1. **Data Collection**
+- Gathered raw monthly freight data (2020–2024) from the Bureau of Transportation Statistics.
+- Data includes all major North American trade corridors and transportation modes.
+
+### 2. **Data Preparation**
+- **Standardization:** Unified column names and formats across all files.
+- **Merging:** Combined monthly files by type (dot1, dot2, dot3) into consolidated datasets.
+- **Source Tracking:** Added a column to track the original file for each record.
+
+### 3. **Data Cleaning**
+- Checked for and removed duplicates.
+- Identified and handled missing or null values.
+- Ensured all coded columns (e.g., state, mode, port) were mapped to human-readable names using official codebooks.
+
+### 4. **Data Transformation**
+- Applied mapping scripts to convert all codes to descriptive labels.
+- Created both “cleaned” (mapped only) and “enriched” (original + mapped) datasets for full transparency.
+
+### 5. **Exploratory Data Analysis (EDA)**
+- Used Jupyter notebooks for all analysis and visualization.
+- Analyzed freight patterns by mode, region, and time.
+- Assessed operational efficiency (cost per weight, route analysis).
+- Evaluated environmental impact and cross-border trade flows.
+- Identified seasonal trends and infrastructure utilization.
+
+### 6. **Visualization & Reporting**
+- Produced clear, professional charts and tables for all key findings.
+- Documented all steps, code, and business logic in the analysis notebooks.
+- Summarized actionable recommendations for stakeholders.
+
+### 7. **Reproducibility**
+- All scripts and notebooks are version-controlled and available in the repository.
+- Dependencies are listed in `requirements.txt` for easy environment setup.
+- Data processing and analysis steps are fully documented and can be rerun end-to-end.
+
+---
+
+**Summary:**  
+Every step of this analysis—from data collection to recommendations—can be reproduced by following the scripts and notebooks provided. This ensures that results are transparent, verifiable, and ready for future updates or deeper dives.
+
+If you need a more technical or step-by-step version for data scientists, let me know!
+
+
 ## 📊 Project Overview
 
 This comprehensive data analysis project examines North American transborder freight movements across the United States, Canada, and Mexico. The analysis leverages multi-year freight data (2020-2024) to identify operational inefficiencies, understand movement patterns, and provide actionable insights for transportation stakeholders, including the Bureau of Transportation Statistics (BTS).
