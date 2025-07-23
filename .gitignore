@@ -52,6 +52,7 @@ data/*/
 # Large processed data files
 worked_data/
 notebooks/worked_data/
+nosetests/images
 
 # Specific large files
 freight_data_merged.csv
