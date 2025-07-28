@@ -22,6 +22,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+.odp
+.pptx
+
+
 # Virtual Environment
 venv/
 env/
@@ -52,7 +56,7 @@ data/*/
 # Large processed data files
 worked_data/
 notebooks/worked_data/
-nosetests/images
+notebooks/images
 
 # Specific large files
 freight_data_merged.csv
